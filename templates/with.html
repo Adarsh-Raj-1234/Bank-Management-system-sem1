@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Withdraw</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main>
+        <div class="combine1">
+        <div class="box2">
+        <form method="POST" action="/with">
+            <input type="number" placeholder="Enter Amount" name="amount" class="account">
+            <br>
+            <button type="submit" value="submit" class="button">
+                WITHDRAW
+            </button>
+        </form>
+        </div>
+        </div>
+    </main>
+</body>
+</html>

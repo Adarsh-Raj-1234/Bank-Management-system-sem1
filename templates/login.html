@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body> 
+    <main>
+        <div class="combine">
+        <div class="box1">
+        <form method="POST" action="/login">
+            <button type="submit" value="with" name="action" class="with">
+                WITHDRAW
+            </button>
+            <br>
+            <button type="submit" value="depo" name="action" class="with">
+                DEPOSITE
+            </button>
+            <br>
+            <button type="submit" value="chck" name="action" class="with">
+                CHECK BALANCE
+            </button>
+            <br>
+            <button type="submit" value="acc" name="action" class="acc">
+                ACCCOUNT
+            </button>
+        </form>
+        </div>
+        </div>
+    </main>
+</body>
+</html>

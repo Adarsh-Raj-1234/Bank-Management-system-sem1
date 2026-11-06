@@ -1,0 +1,160 @@
+.box{
+    width: 30%;
+    padding: 60px;
+    text-align: center;
+    padding: 55px;
+    background-color: rgb(18, 211, 211,0.5);
+    border-radius: 8px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/static/banking.png");
+}
+.heading{
+    font-size: 30px;
+    display: block;
+    margin-bottom: 30px;
+}
+.user, .pass{
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 0;
+    width: 100%;      
+    height: 20px;      
+    font-size: 14px;   
+    padding: 8px;      
+    margin-bottom: 15px; 
+    background-color: rgba(152, 233, 206,0.7);   
+}
+.button{
+    border-radius: 6px;
+    background-color:rgba(96, 115, 133,0.7);
+    font-family: 'Times New Roman', Times, serif;
+}
+.user:hover,.pass:hover{
+    transform: scale(1.04);
+    border-width: 2px;
+}
+.button:hover{
+    transform: scale(1.04);
+}
+body{
+    margin: 0;
+}
+.box1{
+    width: 30%;
+    padding: 60px;
+    border-radius: 6px;
+    text-align: center;
+    background-color: rgb(81, 238, 238,0.7);
+    
+}
+.combine{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/static/Rupee.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.with{
+    margin-bottom: 50px;
+    border-radius: 7px;
+    width: 100%;
+    height: 40px;
+    border-width: 1px;
+    background-color: rgb(224, 241, 235,0.5);
+}
+.acc{
+    border-radius: 7px;
+    width: 100%;
+    height: 40px;
+    border-width: 1px;
+    background-color: rgb(224, 241, 235,0.5);
+}
+.with:hover, .acc:hover{
+    transform: scale(1.03);
+    border-width: 2px;
+}
+.combine1{
+   width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/static/atm.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.account{
+    margin-bottom: 40px;
+    width: 100%;
+    height: 40px;
+    border-radius: 7px;
+    border-width: 1px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box2{
+    width: 30%;
+    padding: 60px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgba(71, 96, 121, 0.712);
+    
+}
+.combine2{
+   width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/static/deposit.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.pinbox{
+    width: 30%;
+    padding: 60px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgba(46, 116, 185, 0.712);
+
+}
+.pin{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+.backgrnd{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(217, 201, 245, 0.832);
+    background-size: cover;
+    background-position: center;
+}
+.button2{
+    width: 30%;
+    height: 30px;
+    border-radius: 8px;
+    border-width: 1px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(243, 227, 216);
+}

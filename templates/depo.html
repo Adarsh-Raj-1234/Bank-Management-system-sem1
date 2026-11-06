@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEPOSITE</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main>
+        <div class="combine2">
+        <div class="box1">
+        <form method="post" action="/depo">
+            <input type="number" placeholder="enter amount" name="amount" class="account">
+            <br>
+            <button type="submit" value="submit" class="button">
+                DEPOSITE
+            </button>
+        </form>
+        </div>
+        </div>
+    </main>
+</body>
+</html>
